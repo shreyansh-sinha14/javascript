@@ -23,3 +23,42 @@ let numberS = 33
 let stringNumber = String(numberS)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// ***************************************************OPERATIONS************************************************************************
+
+let value = 3
+let negvalue = -value
+console.log(negvalue); // output -3
+
+console.log(2+2);
+console.log(9-2);
+console.log(2*2);
+console.log(2/2);
+console.log(2**2); // 2 power 2
+console.log(2%3);
+
+let str1 = "hello"
+let str2 = "ss"
+let str3 = str1+str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + "2");
+console.log("1" + 2 + 2);
+console.log(2 + 2 +"1");
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter);
+ 
+
+
+
+
+
+
+
+
+
+
