@@ -18,7 +18,7 @@ const user = {
 // function chai(){
 //     let username = "hitesh"
 //     console.log(this.username);
-// }
+// }                                  this keyword does not work in a alone function it works with object
 
 // chai()
 
@@ -27,9 +27,10 @@ const user = {
 //     console.log(this.username);
 // }
 
+// ARROW FUNCTION
 const chai =  () => {
     let username = "hitesh"
-    console.log(this);
+    console.log(this);   // this does not work in arrow function
 }
 
 
